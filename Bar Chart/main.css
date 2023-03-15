@@ -1,0 +1,17 @@
+.bar-chart {
+  max-width: 650px;
+}
+
+.axis {
+  stroke: white;
+  font-size: 12px;
+  color: #d993b9
+}
+
+.tippy-content {
+  background-color: #2c3e50;
+}
+
+.rect:focus {
+  outline: none;
+}
