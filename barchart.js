@@ -60,12 +60,12 @@ function barChart(data, params) {
     .join("rect")
     .attr("fill", (d,i)=> `${i % 2 === 1 ? '#d993d0' : '#75dd95'}`)
     .attr("class", "rect")
-    .on("mouseover", function () {
-      d3.select(this).attr("fill", "white");
-    })
-    .on("mouseout", function (d,i) {
-      d3.select(this).attr("fill", `${i % 2 === 1 ? '#d993d0' : '#75dd95'}`);
-    })
+    // .on("mouseover", function () {
+    //   d3.select(this).attr("fill", "white");
+    // })
+    // .on("mouseout", function (d,i) {
+    //   d3.select(this).attr("fill", `${i % 2 === 1 ? '#d993d0' : '#75dd95'}`);
+    // })
     .attr("width", xScale.bandwidth() / 2)
     .attr("x", (d) => xScale(d.category) + xScale.bandwidth() / 4)
     .attr("y", 0)

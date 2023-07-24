@@ -1,9 +1,8 @@
 .bar-chart {
-  max-width: 650px;
+  max-width: 1000px;
 }
 
 .axis {
-  stroke: white;
   font-size: 12px;
   color: #d993b9
 }
